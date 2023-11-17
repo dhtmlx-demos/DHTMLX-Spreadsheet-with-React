@@ -1,11 +1,12 @@
 import "./styles.css";
 
-import Calendar from "./Calendar";
+import DHTMLXSpreadsheet from "./Spreadsheet";
 import { getData } from "./data";
+import { useState } from "react";
 
 function App() {
-  const events = getData();
-  return <Calendar events={events} date={new Date(2021, 5, 10)} />;
+  let [data] = useState(getData())
+  return <DHTMLXSpreadsheet data={data} />;
 }
 
 export default App;

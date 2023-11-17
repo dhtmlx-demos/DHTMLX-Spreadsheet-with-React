@@ -1,14 +1,15 @@
 {
-  "name": "react",
+  "name": "dhtmlx_spreadsheet_react",
   "version": "1.0.0",
-  "description": "React example starter project",
+  "description": "React with dhtmlx spreadsheet example",
   "keywords": [
     "react",
-    "starter"
+    "dhtmlx",
+    "spreadsheet"
   ],
   "main": "src/index.js",
   "dependencies": {
-    "@dhx/trial-eventcalendar": "^2.0.3",
+    "@dhx/trial-spreadsheet": "^5.1.0",
     "loader-utils": "3.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -16,7 +17,7 @@
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
-    "typescript": "4.1.3"
+    "typescript": "3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
